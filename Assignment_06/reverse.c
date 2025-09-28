@@ -1,15 +1,9 @@
 // write a program to print the first 10 natural number reverse order.
 
-#include<stdio.h>
-int main(){
-    int i=10;
-    
-    while(i>=10){
-        printf("%d",i);
-        
-
+#include <stdio.h>
+int main() {
+    for (int i = 20; i >= 1; i--) {
+        printf("%d\n", i);
     }
-    i--;
-    printf("\n");
     return 0;
-} 
+}

@@ -11,5 +11,5 @@ int main(){
         sum = sum+i;
     }
     printf("sum of odd: =%d",sum);
-    return 0;
+    return 0; 
 }

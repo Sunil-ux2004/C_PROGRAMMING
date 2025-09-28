@@ -1,9 +1,9 @@
 // write a program to count digits in a given number.
 #include<stdio.h>
 int main(){
-    int count =1 n ,x;
-    printf("Enter the number: ");
-    scanf("%d",&n);
+    int count =0,x;
+    printf("Enter the number:");
+    scanf("%d",&x);
     while(x){
         x = x/10;
         count++;
